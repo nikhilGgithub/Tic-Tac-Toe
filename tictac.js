@@ -57,7 +57,7 @@ const disableboxes=()=>{///after winning rest of other box are disable
 }};
 
 
-const enableboxes=()=>{//////now after reset all are enable
+const enableboxes=()=>{////// after reset all are enable
     for(let box of boxes){
         box.disabled=false;
         box.innerText="";
